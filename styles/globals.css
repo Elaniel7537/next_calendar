@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+@import './modules/calender.css';
+@import './modules/layout.css';
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Nunito Sans;
+  background-color: #C1FFD7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
