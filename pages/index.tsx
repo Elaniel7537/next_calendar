@@ -1,13 +1,13 @@
 import React from 'react';
 
 import MainLayoutComponent from '@components/layout/MainLayoutComponent'
+import MainCalenderComponent from '@components/calender/calenderComponent'
 
 export const Home: React.FC = () => {
 
   return (
     <MainLayoutComponent>
-      Filtros 
-      Lista de calendarios.
+      <MainCalenderComponent /> 
     </MainLayoutComponent>
   )
 };

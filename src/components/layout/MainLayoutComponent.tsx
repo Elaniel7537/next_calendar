@@ -7,7 +7,7 @@ const { Title } = Typography;
 export const MainLayoutComponent: React.FC = ({ children }: any) => {
 
   return (
-    <Layout style={{ height: "100vh" }}>
+    <Layout style={{ background: "transparent" }}>
       <Header className="header-layout">
         <div className="header-title-content">
           <Title level={4} className="header-title"> Generador de Calendario</Title>
